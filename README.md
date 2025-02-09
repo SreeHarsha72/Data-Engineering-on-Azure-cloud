@@ -13,7 +13,7 @@ To explore Microsoft Azure services and build ETL pipleines to analyze the data 
 
 
 
-### **Project Workflow**
+## **Project Workflow**
 
 1. Ingestion → **Azure Data Factory** → Raw Data (ADLS Gen2)
 2. Transformation → **Azure Databricks** → Transformed Data (ADLS Gen2)
