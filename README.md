@@ -79,10 +79,10 @@ The dataset used is Olympic Data from Kaggle, which contains details about athle
   - Ranking countries by medal count.
   - Finding the top athlete in each discipline.
 
-### **Step 5: Data Visualization using Power BI / Looker / Tableau**
+### **Step 5: Data Visualization using Power BI**
 - **Connect Power BI to Synapse Analytics**.
 - **Create dashboards** to visualize key insights.
 - **Publish Reports** for stakeholders.
 
 
-This project demonstrates a **real-world data engineering workflow** in **Azure Cloud**, integrating multiple services for **data ingestion, transformation, storage, analysis, and visualization**.
+This project demonstrates a real-world data engineering workflow in **Azure Cloud**, integrating multiple services for data ingestion, transformation, storage, analysis, and visualization.
