@@ -1,6 +1,6 @@
 # Data-Engineering-on-Azure-cloud
 
-## **Project onjective**
+## **Project objective**
 To explore Microsoft Azure services and build ETL pipleines to analyze the data and produce dashboards in Power BI.
 
 ## **Services Used**
