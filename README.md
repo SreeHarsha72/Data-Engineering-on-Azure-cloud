@@ -1,11 +1,7 @@
 # Data-Engineering-on-Azure-cloud
 
-## **Project onjective
+## **Project onjective**
 To explore Microsoft Azure services and build ETL pipleines to analyze the data and produce dashboards in Power BI.
-
-Dataset: The dataset used is Olympic Data from Kaggle, which contains details about athletes, coaches, medals, teams, and gender participation in the 2021 Tokyo Olympics.
-
----
 
 ## **Services Used**
 
@@ -19,6 +15,8 @@ Dataset: The dataset used is Olympic Data from Kaggle, which contains details ab
 
 ### **Project Workflow**
 The data pipeline follows the **ETL (Extract, Transform, Load)** process using the following Azure services:
+
+**Datasource:** The dataset used is Olympic Data from Kaggle, which contains details about athletes, coaches, medals, teams, and gender participation in the 2021 Tokyo Olympics.
 
 1. Ingestion → **Azure Data Factory** → Raw Data (ADLS Gen2)
 2. Transformation → **Azure Databricks** → Transformed Data (ADLS Gen2)
@@ -49,7 +47,6 @@ The data pipeline follows the **ETL (Extract, Transform, Load)** process using t
      - Gender participation by discipline.
      - Distribution of medals across different sports.
 
----
 
 ## **Step-by-Step Execution**
 
@@ -87,9 +84,4 @@ The data pipeline follows the **ETL (Extract, Transform, Load)** process using t
 - **Publish Reports** for stakeholders.
 
 
-
----
-
 This project demonstrates a **real-world data engineering workflow** in **Azure Cloud**, integrating multiple services for **data ingestion, transformation, storage, analysis, and visualization**.
-
-Would you like to add any **additional details or improvements** to this summary? 🚀
