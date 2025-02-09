@@ -61,7 +61,8 @@ The dataset used is Olympic Data from Kaggle, which contains details about athle
 
 ### **Step 2: Data Transformation using Azure Databricks**
 - **Create an Azure Databricks Workspace** and configure a Spark cluster.
-- **Mount the Data Lake Storage to Databricks** using Service Principal authentication.
+- **Mount the Data Lake Storage to Databricks** using Service Principal authentication. 
+  utilized apps registration service to create an app with secret value and required role assignment(storage contributor IAM access control), using which mounted Stoarge point on to databricks.
 - **Read Data using Apache Spark (PySpark)**
   - Print schema to verify column types.
   - Converted data types where necessary (e.g., medals count from string to integer).
