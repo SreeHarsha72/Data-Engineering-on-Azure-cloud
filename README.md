@@ -14,14 +14,14 @@ To explore Microsoft Azure services and build ETL pipleines to analyze the data 
 
 
 ### **Project Workflow**
-The data pipeline follows the **ETL (Extract, Transform, Load)** process using the following Azure services:
-
-**Datasource:** The dataset used is Olympic Data from Kaggle, which contains details about athletes, coaches, medals, teams, and gender participation in the 2021 Tokyo Olympics.
 
 1. Ingestion → **Azure Data Factory** → Raw Data (ADLS Gen2)
 2. Transformation → **Azure Databricks** → Transformed Data (ADLS Gen2)
 3. Analytics → **Azure Synapse Analytics**
 4. Visualization → **Power BI**
+
+**Datasource:** 
+The dataset used is Olympic Data from Kaggle, which contains details about athletes, coaches, medals, teams, and gender participation in the 2021 Tokyo Olympics.
 
 1. **Extract Data (Ingestion)**
    - **Azure Data Factory (ADF)** is used to extract raw data from a GitHub repository.
