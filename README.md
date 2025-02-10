@@ -51,7 +51,7 @@ https://www.kaggle.com/datasets/arjunprasadsarkhel/2021-olympics-in-tokyo
      - Distribution of medals across different sports.
 
 
-## **Step-by-Step Execution**
+## **Execution**
 
 ### **Step 1: Data Ingestion using Azure Data Factory**
 - **Create Azure Data Factory** to manage data pipelines.
