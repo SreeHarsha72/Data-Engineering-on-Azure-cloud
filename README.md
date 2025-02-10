@@ -20,6 +20,8 @@ To explore Microsoft Azure services and build ETL pipleines to analyze the data 
 3. Analytics → **Azure Synapse Analytics**
 4. Visualization → **Power BI**
 
+![workflow diagram](img/workflow.png)
+
 **Datasource:** 
 The dataset used is Olympic Data from Kaggle, which contains details about athletes, coaches, medals, teams, and gender participation in the 2021 Tokyo Olympics.
 https://www.kaggle.com/datasets/arjunprasadsarkhel/2021-olympics-in-tokyo
