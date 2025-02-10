@@ -1,0 +1,52 @@
+https://drive.google.com/uc?export=download&id=1q3me4V5kDplUe9_Akmnz95zmPJMVbgRL   Teams
+https://drive.google.com/uc?export=download&id=1HPP2C2inhDJY57Dh6SXkiyUVsFbR1HGi   Athletes
+https://drive.google.com/uc?export=download&id=1uOVMFpRRoypymMDdmrbING_O3FOCE7aL   Coaches
+https://drive.google.com/uc?export=download&id=1eahVASPsCjVZ_X3i_T0Y-J4hjnax5Y9q   EntriesGender
+https://drive.google.com/uc?export=download&id=11-450dKrHASj8DDSDN7ryPsrfgWO0CwS   Medals
+
+This file has the RAW links for the direct download of files created using google drive file ids which are data sources for the ETL
+
+
+App registration through Azure CLI
+
+//for tenant ID
+az account show --query tenantId -o tsv 
+
+
+//for app details
+az ad app show --id "APPID"
+
+
+//for client ID
+az ad app list --all --query "[?displayName=='APPNAME'].appId" -o tsv  
+b31cef61-2720-41a5-a109-edf533591f7b
+
+//for security key creation
+az ad app credential reset --id "APPID" --display-name "APPNAME" --years 1
+
+//security key details
+{
+  "appId": "*************",
+  "password": "***************",
+  "tenant": "*********"
+}
+
+//checkingn client sceret keys added to app or not 
+az ad app show --id "APP_ID" --query "passwordCredentials"
+[
+  {
+    "customKeyIdentifier": null,
+    "displayName": "MySecret",
+    "endDateTime": "2026-02-09T18:22:01Z",
+    "hint": "sw6",
+    "keyId": "1766030d-997e-47ea-b96d-58ac2930b9c6",
+    "secretText": null,
+    "startDateTime": "2025-02-09T18:22:01Z"
+  }
+]
+
+
+//adding access role
+az role assignment create --assignee "APPID" --role "Storage Blob Data Contributor" --scope "/subscriptions/YOUR_SUBSCRIPTION_ID/resourceGroups/YOUR_RESOURCE_GROUP/providers/Microsoft.Storage/storageAccounts/olympicdata2"
+
+
