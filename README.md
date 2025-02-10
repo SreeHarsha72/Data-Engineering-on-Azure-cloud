@@ -22,6 +22,7 @@ To explore Microsoft Azure services and build ETL pipleines to analyze the data 
 
 **Datasource:** 
 The dataset used is Olympic Data from Kaggle, which contains details about athletes, coaches, medals, teams, and gender participation in the 2021 Tokyo Olympics.
+https://www.kaggle.com/datasets/arjunprasadsarkhel/2021-olympics-in-tokyo
 
 1. **Extract Data (Ingestion)**
    - **Azure Data Factory (ADF)** is used to extract raw data from a GitHub repository.
